@@ -1,0 +1,42 @@
+.ui {
+  background-color: rgb(255, 240, 240);
+  width: 180px;
+  height: 380px;
+  border-style: solid;
+  border-width: 2px;
+  padding: 10px;
+}
+
+.numBtn {
+  color: rgb(170, 34, 34);
+  width: 50px;
+  height: 50px;
+}
+.opBtn {
+  background-color: rgb(9, 93, 126);
+  color: white;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+}
+.calBtn {
+  background-color: blue;
+  color: white;
+  font-size: 24px;
+  width: 170px;
+  height: 50px;
+}
+.clrBtn {
+  background-color: green;
+  color: white;
+  font-size: 18px;
+  width: 50px;
+  height: 50px;
+}
+.numtxt {
+  background-color: grey;
+  color: white;
+  font-size: 14;
+  height: 40px;
+  text-align: right;
+}
