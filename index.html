@@ -8,31 +8,11 @@
     <title>Kalkulator</title>
   </head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  $(".numBtn").click(function(){
-	var value1 = $( this ).val();
-	var value2 = $( "#input" ).val();
-    $( "#input" ).val( value2+value1);
-  });
-  
-  $(".clrBtn").click(function(){
-	$( "#input" ).val("");
-  });
-  
-  $(".opBtn").click(function(){
-	var value1 = $( this ).val();
-	var value2 = $( "#input" ).val();
-    $( "#input" ).val( value2+value1);
-  });
-	$(".calBtn").click(function(){
-		var value2 = eval($( "#input" ).val());
-		$( "#input" ).val( value2);
-	  });
-});
+<script src="main.js" href="main.js">
+
 </script>
 </head>
-<body style="font-family:arial"> 
+<body style="font-family:'Times New Roman', Times, serif"> 
       <div class="ui" align-items="center"> 
       <table>
       <tr>
